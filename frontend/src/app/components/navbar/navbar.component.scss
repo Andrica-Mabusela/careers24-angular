@@ -1,0 +1,65 @@
+nav {
+    background:#2b353e !important;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    #hambugger-menu-btn {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        margin-right: 10px;
+ 
+        .fa-bars {
+            font-size: 23px;
+            font-weight: 600;
+        }
+ 
+    }
+
+    h1 {
+        color: #fff;
+        margin-bottom: 5px;
+        a {
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+
+    a {
+        color: #fff;
+    }
+
+
+    // LIST STYLES 
+    ul {
+        list-style: none;
+        display: flex;
+
+        i {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        li, a{
+            color: #fff;
+            padding: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 8vh;
+        }
+
+        #search-list-item {
+            height: 8vh;
+            background-color: #65b621;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+        }
+
+    }
+}
+
+
