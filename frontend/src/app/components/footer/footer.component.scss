@@ -1,0 +1,48 @@
+footer {
+    background-color: #2b353e;
+    color: #fff;
+    padding: 10px;
+    padding-top: 30px;
+
+    header{
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            font-size: 18px;
+        }
+
+        .fa-plus {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-weight: 800;
+            color: red;
+            font-size: 25px;
+        }
+
+    }
+
+    
+
+   ul{
+      list-style: none; 
+    a {
+        color:#fff;
+    }
+
+}
+
+
+section {
+    margin-bottom: 30px;
+
+    & > div {
+        overflow: hidden;
+        height: 0px;
+    }
+}
+
+    
+
+}
