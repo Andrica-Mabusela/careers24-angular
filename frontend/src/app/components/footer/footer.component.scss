@@ -37,11 +37,16 @@ footer {
 section {
     margin-bottom: 30px;
 
-    // & > .section-content {
-    //     overflow: hidden;
-    //     height: 0px;
-    //     transition: height 1s linear;
-    // }
+    & > .section-content {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            a {
+                font-size: 13px;
+            }
+        }
+    }
 
     // .show-content{
     //     height: 100%;
