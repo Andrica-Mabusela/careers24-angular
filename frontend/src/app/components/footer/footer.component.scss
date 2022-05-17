@@ -18,7 +18,7 @@ footer {
             outline: none;
             font-weight: 800;
             font-size: 20px;
-
+            color: #fff;
         }
 
     }
@@ -37,10 +37,15 @@ footer {
 section {
     margin-bottom: 30px;
 
-    & > div {
-        overflow: hidden;
-        height: 0px;
-    }
+    // & > .section-content {
+    //     overflow: hidden;
+    //     height: 0px;
+    //     transition: height 1s linear;
+    // }
+
+    // .show-content{
+    //     height: 100%;
+    // }
 
 
    

@@ -13,9 +13,10 @@ export class FooterComponent implements OnInit {
   }
 
   dropContent(event: Event){
-      if(!!event.target){
-        // console.log(event.target.parentElement)
-      }
+        const sectionContent: any = (event.target as HTMLButtonElement).parentElement;
+
+        // sectionContent.nextElementSibling.classList.toggle('show-content')
+
   }
 
 }
