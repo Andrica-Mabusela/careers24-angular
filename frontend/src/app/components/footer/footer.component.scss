@@ -17,8 +17,8 @@ footer {
             border: none;
             outline: none;
             font-weight: 800;
-            color: red;
-            font-size: 25px;
+            font-size: 20px;
+
         }
 
     }
@@ -41,8 +41,50 @@ section {
         overflow: hidden;
         height: 0px;
     }
+
+
+   
 }
+
+
+
+#last-section {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background: red;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #fff;
+    
+    ul {
+        padding: 0;
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        background-color: blue;
+
+        li a {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 10px;
+        }
+
+    }
+
+    
+    img {
+        width: 71px;
+        height: 50px;
+    }
+}
+
+article {
+    margin-top: -15px !important;
+    font-size: 13px;
+}
+
 
     
 
 }
+
