@@ -12,11 +12,8 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  dropContent(event: Event){
-        const sectionContent: any = (event.target as HTMLButtonElement).parentElement;
-
-        // sectionContent.nextElementSibling.classList.toggle('show-content')
-
+  skewBtn(event: Event){
+     (event.target as HTMLButtonElement).classList.toggle('skew-btn')
   }
 
 }
