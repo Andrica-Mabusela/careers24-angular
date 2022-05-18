@@ -2,7 +2,7 @@
 header {
     background-color: #fff;
     text-align: center;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,8 @@ header {
     width: 100%;
     background-color: transparent;
     padding: 10px;
+    display: flex;
+    justify-content: center;
     .input-field-wrapper {
         height: 60px;
         margin: 15px 0;
@@ -85,4 +87,14 @@ header {
 
 
 
+}
+
+
+
+// MEDIA QUERY STYLES 
+
+@media (min-width: 460px) {
+    #hero-content > div{
+        width: 420px;
+    }
 }
