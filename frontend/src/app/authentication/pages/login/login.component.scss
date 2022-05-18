@@ -59,13 +59,15 @@ header {
     .login-btn {
         background-color: #65b621;
         color: #fff;
+        border: 1px solid #65b621;
         padding: 20px 0;
-
         transition: all 0.3s;
+
         &:hover {
             background-color: #fff;
             color: #65b621;
         }
+
     }
 
     input[type="checkbox"] {
