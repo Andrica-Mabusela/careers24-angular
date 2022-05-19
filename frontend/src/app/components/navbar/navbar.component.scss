@@ -1,6 +1,10 @@
 nav {
     background:#2b353e !important;
     height: 8vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 
     // display: flex;
     // justify-content: space-between;
@@ -10,7 +14,7 @@ nav {
         height: 8vh;
         justify-content: space-between;
         width: 1200px;
-        margin: 0 auto;
+        
     }
 
     #hambugger-menu-btn {
