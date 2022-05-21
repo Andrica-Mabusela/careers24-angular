@@ -30,13 +30,37 @@
                 </div>
             </div>
 
-            <div  id="auth-btns">
-                <div>
-                    <button>SIGN UP</button>
+            <section>
+                <div id="employed">
+                    <h2>When did you start your professional career?*</h2>
+                    <div>
+                        <div>
+                            <select id="select-month" placeholder="Month">
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="july">july</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+
+                            <select id="select-year" >
+                                    <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a href="#">I HAVE AN ACCOUNT</a>
-                </div>
+            </section>
+
+            <div  id="auth-buttons">
+                <button>SIGN UP</button>
+                <a href="#">I HAVE AN ACCOUNT</a>
             </div>
         </div>
         </form>

@@ -47,18 +47,23 @@ main {
     }
 
 
-    #auth-btns {
+    #auth-buttons {
         button {
-            background-color: #65B621;
-            // width: 100%;
-            color: #fff;
+            background-color:#65B621;
+            border: 1px solid #65B621;
+            display: block;
+            width: 100%;
             padding: 20px;
+            text-align: center;
+            margin-bottom: 15px;
         }
 
         a {
-            border:  1px solid #2b353e;
+            border: 1px solid #2b353e;
             padding: 20px;
-            // width: 100%;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
         }
     }
 
