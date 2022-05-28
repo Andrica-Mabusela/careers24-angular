@@ -7,6 +7,7 @@ header {
 }
 
 main {
+    margin: 0 auto;
     background-color: #fff;
     border-top: 3px solid #65B621;
     padding: 15px;
@@ -134,6 +135,8 @@ main {
 
     
     #auth-buttons {
+        padding: 0 !important;
+        margin-left:0;
         button {
             background-color:#65B621;
             border: 1px solid #65B621;
@@ -142,6 +145,7 @@ main {
             padding: 15px;
             text-align: center;
             margin-bottom: 15px;
+            margin-left: 0;
             color: #fff;
             font-weight: 600;
         }
@@ -202,5 +206,63 @@ main {
     }
 
 
+
+}
+
+
+// MEDIA QUERY MIN WIDTH >= 581 
+@media (min-width: 581px) {
+
+    #auth-buttons {
+        display: flex;
+
+        button {
+            width: 224px !important;
+            margin: 0 5px;
+        }
+
+        & > div {
+            width: 224px !important;
+            margin: 0 5px;
+            padding: 0;
+
+            a {
+                margin-top: 0;
+                padding: 14px;
+            }
+        }
+    }
+
+}
+
+
+
+// MEDIA QUERY MIN WIDTH >= 768px 
+@media (min-width: 768px) {
+    
+    #register-form-wrapper{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+// MEDIA QUERY MIN WIDTH >= 1026   
+@media (min-width: 1026px) {
+
+    main {
+        width: 92%;
+    }
+
+}
+
+// MEDIA QUERY MIN WIDTH >= 1200px   
+@media (min-width: 1200px) {
+
+    main {
+        width: 83%;
+    }
 
 }
