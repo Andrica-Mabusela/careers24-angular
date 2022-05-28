@@ -36,6 +36,7 @@
                     <div>
                         <div>
                             <select id="select-month" placeholder="Month">
+                                <option value="" disabled selected hidden>Month</option>
                                 <option value="January">January</option>
                                 <option value="February">February</option>
                                 <option value="March">March</option>
@@ -51,6 +52,7 @@
                             </select>
 
                             <select id="select-year" >
+                                <option value="" disabled selected hidden>Year</option>
                                     <option *ngFor="let year of years" [value]="year">{{ year }}</option>
                             </select>
                         </div>
@@ -87,6 +89,11 @@
                 <div>
                     <a href="#">I HAVE AN ACCOUNT</a>
                 </div>
+            </div>
+
+            <div id="form-footer">
+                <small>Are you a recruiter?</small>
+                <a href="#"><small>Register a recruiter account here</small></a>
             </div>
         </div>
         </form>

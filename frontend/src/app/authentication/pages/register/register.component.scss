@@ -148,6 +148,12 @@ main {
             margin-left: 0;
             color: #fff;
             font-weight: 600;
+            transition: background-color 0.2s linear, color 0.2s linear;
+
+            &:hover {
+                background-color: #fff;
+                color: #65B621;
+            }
         }
 
         a {
@@ -159,6 +165,12 @@ main {
             margin-top: 10px;
             color: #2b353e !important;
             text-decoration: none !important;
+            transition: background-color 0.2s linear, color 0.2s linear;
+
+            &:hover {
+                background-color: #2b353e;
+                color: #fff !important;
+            }
         }
     }
 
@@ -172,6 +184,22 @@ main {
     .experience-active {
         background-color: #2b353e;
         color: #fff !important;
+    }
+
+
+    #form-footer {
+
+        & > small {
+            color: grey;
+        }
+        a {
+            color: #2b353e;
+            padding-left: 3px;
+
+            &:hover {
+                color:#65B621;
+            }
+        }
     }
 
 
@@ -254,6 +282,7 @@ main {
 
     main {
         width: 92%;
+        margin-bottom: 30px;
     }
 
 }
