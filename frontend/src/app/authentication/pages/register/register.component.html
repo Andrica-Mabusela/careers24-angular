@@ -24,15 +24,15 @@
             <div id="job-seeker-wrapper">
                 <h2>I am currently</h2>
                 <div id="job-seeker-btns">
-                    <div class="seeker-btn employment-active">Employed</div>
-                    <div class="seeker-btn">Unemployed</div>
-                    <div class="seeker-btn">1st Time Job Seeker</div>
+                    <div class="seeker-btn employment-active" (click)="selectExperience($event)">Employed</div>
+                    <div class="seeker-btn" (click)="selectExperience($event)">Unemployed</div>
+                    <div class="seeker-btn" (click)="selectExperience($event)">1st Time Job Seeker</div>
                 </div>
             </div>
 
             <section>
                 <div id="employed">
-                    <h2>When did you start your professional career?*</h2>
+                    <h2>When did you start your professional career? *</h2>
                     <div>
                         <div>
                             <select id="select-month" placeholder="Month">

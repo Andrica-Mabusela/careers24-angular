@@ -27,16 +27,19 @@ main {
     }
 
     #job-seeker-wrapper {
-
+        margin-top: 40px;
         h2 {
             font-size: 17px;
         }
         #job-seeker-btns {
             .seeker-btn {
                 text-align: center;
-                padding: 20px;
+                padding: 15px;
                 border: 1px solid #2b353e;
                 margin: 15px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
                 &:hover {
                     background-color: #2b353e;
@@ -75,6 +78,7 @@ main {
     }
 
     #unemployed {
+        display: none;
         h2 {
             font-size: 17px;
         }
@@ -97,6 +101,10 @@ main {
              }
         }
 
+    }
+
+    #first-time-seeker {
+        display: none;
     }
 
     #checkboxes {
@@ -130,7 +138,7 @@ main {
             border: 1px solid #65B621;
             display: block;
             width: 100%;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             margin-bottom: 15px;
             color: #fff;
@@ -139,10 +147,13 @@ main {
 
         a {
             border: 1px solid #2b353e;
-            padding: 20px;
+            padding: 15px;
+            font-size: 17px;
             text-align: center;
             display: block;
             margin-top: 10px;
+            color: #2b353e !important;
+            text-decoration: none !important;
         }
     }
 
@@ -157,6 +168,38 @@ main {
         background-color: #2b353e;
         color: #fff !important;
     }
+
+
+}
+
+
+
+
+// MEDIA QUERIES FOR WIDTH >= 410
+@media (min-width: 410px) {
+
+    #job-seeker-btns {
+        display: flex;
+        .seeker-btn {
+            flex-basis: 100px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 8px !important;
+        }
+    }
+
+
+
+}
+
+@media (min-width: 504px) {
+
+    #job-seeker-btns {
+        .seeker-btn {
+            padding: 15px 0 !important;
+        }
+    }
+
 
 
 }
