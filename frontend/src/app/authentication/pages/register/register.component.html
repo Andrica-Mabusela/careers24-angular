@@ -24,9 +24,9 @@
             <div id="job-seeker-wrapper">
                 <h2>I am currently</h2>
                 <div id="job-seeker-btns">
-                    <div class="seeker-btn employment-active" (click)="selectExperience($event)">Employed</div>
-                    <div class="seeker-btn" (click)="selectExperience($event)">Unemployed</div>
-                    <div class="seeker-btn" (click)="selectExperience($event)">1st Time Job Seeker</div>
+                    <div class="seeker-btn employed-btn employment-active" (click)="selectExperience($event)">Employed</div>
+                    <div class="seeker-btn unemployed-btn" (click)="selectExperience($event)">Unemployed</div>
+                    <div class="seeker-btn first-time-seeker-btn" (click)="selectExperience($event)">1st Time Job Seeker</div>
                 </div>
             </div>
 
@@ -60,8 +60,8 @@
                 <div id="unemployed">
                         <h2>Do you have work experience? *</h2>
                         <section>
-                            <div><span>Yes</span></div>
-                            <div class="experience-active"><span>No</span></div>
+                            <div class="experience-btn" (click)="experienceToggler($event)"><span>Yes</span></div>
+                            <div class="experience-btn experience-active" (click)="experienceToggler($event)"><span>No</span></div>
                         </section>
                 </div>
 
