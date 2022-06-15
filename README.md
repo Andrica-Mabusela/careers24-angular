@@ -1,2 +1,2 @@
 # careers24-angular
-careers24 angular application
+careers24 angular clone application
