@@ -109,3 +109,45 @@
 
 
 }
+
+#jobs-wrapper {
+    background-color: #fff;
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 15px;
+        font-weight: 700;
+    }
+
+    #jobs {
+        width: 100%;
+        padding: 0 15px;
+        background-color: red;
+    }
+
+    .job {
+
+        & > article {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            h2 {
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                font-weight: 800;
+                font-size: 20px;
+                transition: transform .1s linear;
+            }
+
+        }
+        
+    }
+}
