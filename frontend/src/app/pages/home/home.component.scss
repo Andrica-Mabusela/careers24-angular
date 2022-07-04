@@ -155,3 +155,38 @@
         
     }
 }
+
+
+#mobile-section {
+    background-color:#efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > #phone-wrapper {
+        text-align: center;
+    }
+
+    #jobs-mobile-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 22px;
+            color: #2B353E;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: bold;
+            color:#65B621;
+        }
+
+        ul {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
