@@ -255,6 +255,25 @@
 
 }
 
+@media (min-width: 769px) {
+    #jobs-wrapper {
+        #jobs {
+            display: flex;
+            justify-content: center;
+
+            .job article button {
+                display: none;
+            }
+
+            .job {
+                flex-basis: 215px;
+                border: 1px solid #333;
+                margin: 10px;
+            }
+        }
+    }
+}
+
 @media (min-width: 992px) {
     #mobile-section {
         display: flex;
